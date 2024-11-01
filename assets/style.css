@@ -1,0 +1,105 @@
+/* Generic Classes */
+.sw-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sw-default-hide {
+  display: none;
+}
+
+/* End Generic Classes */
+
+h2 .sw-button {
+  position: relative;
+  left: 20px;
+}
+
+.sw-note ul {
+  list-style-type: square;
+  padding-left: 40px;
+}
+
+.sw-link-account {
+  width: 500px; /* equal to width of the iframe */
+}
+
+.sw-link-account .sw-button-big {
+  font-size: 18px;
+  height: auto;
+  padding: 5px 10px;
+}
+
+.sw-report-shortcuts {
+  margin-top: 10px;
+  width: 600px;
+}
+
+.sw-report-shortcuts .shortcut {
+  cursor: pointer;
+}
+
+.sw-report-shortcuts .banner {
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 552px;
+  height: 189px;
+  background-size: contain;
+}
+
+.sw-report-shortcuts .banner-text {
+  position: relative;
+}
+
+.sw-report-shortcuts .banner-text.container {
+  width: 65%;
+  float: left;
+  padding: 50px 15px;
+  line-height: 1;
+}
+
+.sw-report-shortcuts .banner-text.heading {
+  font-size: 28px;
+  display: inline-block;
+  width: 320px;
+}
+
+.sw-report-shortcuts .banner-text.sub-heading {
+  font-size: 13px;
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+.sw-report-shortcuts .shortcut-tile {
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  background-color: #f26522;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: bold;
+  border: 1px #ccc solid;
+}
+
+.sw-report-shortcuts .shortcut-tile:hover {
+  border-color: #0074a2;
+}
+
+.sw-report-shortcuts .shortcut-tile .dashicons {
+  font-size: 80px;
+  width: auto;
+  height: auto;
+  padding-top: 30px;
+}
+
+.sw-report-shortcuts .shortcut-tile h1 {
+  font-size: 2em;
+  margin-top: 10px;
+  padding: 0;
+  color: #fff;
+}
+
+.sw-contact .dashicons {
+  text-decoration: none;
+}
